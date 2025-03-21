@@ -152,7 +152,7 @@ Ketika pada review tersebut revisi, maka lakukanlah revisi sesusai dengan apa ya
 Jika kalian sudah selesai mengerjakan revisi tersebut, ulangi langkah Commit dan push.
 Dan kalian dapat menuggu kembali apakah revisi kalian di acc.
 
-## Workflow
+## Workflows
 
 Workflow Schematics 2024 menggunakan sistem agile project management yang terdiri dari sprint dan scrum.
 
