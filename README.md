@@ -156,3 +156,14 @@ Setelah task yang kalian kerjakan selesai dan sudah di push ke repo, langkah sel
 Ketika pada review tersebut revisi, maka lakukanlah revisi sesusai dengan apa yang diminta.
 Jika kalian sudah selesai mengerjakan revisi tersebut, ulangi langkah Commit dan push.
 Dan kalian dapat menuggu kembali apakah revisi kalian di acc.
+
+## Workflow
+
+1. Cek Backlog and convert to isse
+![image](https://github.com/user-attachments/assets/366cfe32-4aee-4c03-ad00-272f90109ac1)
+
+Contoh yang sudah di convert : 
+![image](https://github.com/user-attachments/assets/96ccf4e3-5b0c-4b6e-9242-f6732a6524e9)
+
+2. 
+3. 
