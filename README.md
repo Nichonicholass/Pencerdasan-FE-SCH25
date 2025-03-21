@@ -74,51 +74,38 @@ Untuk memahami lebih detail tentang TypeScript, silahkan kunjungi [https://www.t
 Atau bisa juga kunjungi
 https://youtube.com/playlist?list=PLNqp92_EXZBJ4CBroxVBJEpAXoz1g-naZ untuk melihat video tutorial lengkapnya.
 
-## Express
 
-Express adalah framework backend. Artinya, ia bertanggung jawab untuk mengatur fungsionalitas website, seperti pengelolaan routing dan session, permintaan HTTP, penanganan error, serta pertukaran data di server.
+##Next.js v14
+Next.js adalah kerangka kerja JavaScript sumber terbuka (open source) yang digunakan untuk membuat aplikasi web dengan cepat dan mudah menggunakan React. Next.js dirancang untuk mempercepat proses pengembangan aplikasi web dengan menyediakan fitur-fitur seperti server-side rendering (SSR), pre-rendering, dan optimasi performa.
 
-Beberapa fungsionalitas dari Express antara lainnya adalah
+##TailwindCSS
+TailwindCSS adalah framework untuk CSS yang mempermudah dalam melakukan styling CSS dengan lebih cepat dan efisien. Selain itu, TailwindCSS juga bisa membuat custom class untuk setiap component, Tailwind menyediakan kelas utility yang dapat langsung digunakan di HTML. Kelas-kelas ini mencakup margin, padding, ukuran, warna, hingga tata letak responsif, sehingga memudahkan styling tanpa harus membuat stylesheet terpisah.
 
-#### Routing
+Kelebihan dari TailwindCSS:
 
-Routing adalah metode yang digunakan website (server) untuk merespons permintaan dari browser (client). Misalnya, permintaan untuk menampilkan halaman tertentu.
+Kecepatan dan Efisiensi: sehingga mempercepat pengembangan karena tidak perlu beralih ke file CSS.
+Konsistensi Desain: Utility classes memastikan tampilan yang konsisten di seluruh halaman, mengurangi risiko inkonsistensi antar komponen.
+Customizable: Tailwind bisa dikustomisasi melalui konfigurasi, sehingga sesuai dengan kebutuhan desain spesifik proyek tanpa harus menulis ulang banyak kode.
+Responsive Design: Tailwind menyediakan kelas bawaan untuk desain responsif, sehingga memudahkan penyesuaian tampilan di berbagai ukuran layar.
 
-Cara kerja routing di Express adalah dengan sebuah metode bernama `app`. Metode tersebut akan merespons setiap permintaan berbentuk HTTP. Misalnya GET, POST, PUT, dan DELETE.
+##React Query
+Library yang mempermudah pengelolaan data asinkron dalam aplikasi React, terutama saat berurusan dengan API seperti mengatur state, loading, error, dan caching secara manual, React Query menangani semua itu secara otomatis dan menjadi lebih efisien.
 
-#### Middleware
+Kelebihan:
 
-Middleware adalah fungsi yang digunakan untuk mengakses permintaan object (req), respons object (res), dan setiap siklus permintaan dan respon tersebut (next).
+React Query secara otomatis mengurus data fetching, error handling, dan state loading, sehingga kode jadi lebih bersih dan lebih sedikit boilerplate dibanding pengelolaan manual.
+React Query bisa otomatis me-refresh data ketika dianggap usang atau ada perubahan, memastikan aplikasi selalu menampilkan data terbaru.
+React Query juga mendukung mutations, yang memudahkan pengiriman data ke server (seperti menambah, mengubah, atau menghapus data). Setelah mutation berhasil, cache otomatis diperbarui, jadi UI selalu sinkron dengan data terbaru.
 
-Pada Express, cara kerja Middleware adalah dengan mengeksekusi setiap skrip, membuat perubahan terhadap permintaan dan respons object, mengakhiri siklus permintaan-respons, lalu menyiapkan Middleware untuk siklus berikutnya.
+##React Hook Forms
+React Hook Form adalah library untuk menangani form dalam aplikasi React. Library ini memanfaatkan fitur React Hooks sehingga memungkinkan pengelolaan form state, validasi, dan pengiriman data dengan lebih efisien. React Hook Form fokus pada kinerja, sehingga cocok digunakan dalam form yang kompleks dan dengan banyak input.
 
-#### Controller
+Kelebihan:
 
-Controller adalah bagian yang menangani HTTP request yang masuk dan mengembalikan HTTP response yang sesuai. Controller bertindak sebagai perantara antara client dan server-side logic, menangani request yang masuk, memprosesnya, dan mengembalikan response yang sesuai.
-
-#### Service
-
-Implementasi service pada Express mendefinisikan dan merangkum seluruh business entity agar mudah diuji, dapat digunakan kembali, dan tidak bergantung pada infrastruktur atau teknologi tertentu. Lapisan ini tidak boleh bergantung pada external component seperti database atau API, dan hanya boleh berinteraksi dengannya melalui abstraksi.
-
-#### Repository
-
-Repository memiliki peran untuk melakukan abstraksi data layer dari aplikasi dan memberikan jalan untuk melakukan operasi data, tanpa perlu mengetahui bagaimana data itu disimpan maupun diambil.
-
-Repository menggunakan metode-metode operasi CRUD (Create, Read, Update, Delete) untuk melakukan Query dan manipulasi data. Repository memungkinkan aplikasi untuk memecah instruksi-instruksi penyimpanan data, yang membuatnya lebih reliable, mudah di-scale, dan dimaintain, karena perubahan instruksi penyimpanan data tidak mempengaruhi aplikasi.
-
-Penggunaan Repository pada Express acapkali digabungkan dengan penggunaan ORM (Prisma, Drizzle, Sequelize) yang memberikan kemudahan untuk melakukan manipulasi ataupun instruksi pengambilan data, dengan fitur tambahan seperti pengamanan Query, performa yang menjanjikan, dan kemudahan penggunaan Query.
-
-## Prisma
-
-Prisma Database adalah ORM (Object-Relational Mapping) generasi berikutnya yang dirancang khusus untuk Node.js dan TypeScript. ORM adalah teknik yang memungkinkan pengembang untuk bekerja dengan basis data relasional menggunakan objek dan kode pemrograman daripada menulis kueri SQL secara manual. Prisma Database mempermudah interaksi dengan berbagai jenis database seperti PostgreSQL, MySQL, SQLite, dan SQL Server.
-
-Dengan Prisma Database, kita dapat dengan mudah membuat skema database menggunakan sintaks yang intuitif. Prisma akan secara otomatis menghasilkan kueri SQL yang diperlukan untuk mengakses dan memanipulasi data. Ini menghemat waktu dan usaha dalam penulisan kueri SQL secara manual, serta mengurangi risiko kesalahan manusia.
-
-## PostgreSQL (Supabase)
-
-PostgreSQL adalah sistem manajemen basis data relasional (RDBMS) yang memiliki kemampuan untuk memproses data yang besar dan kompleks. PostgreSQL dikembangkan oleh komunitas pengembang yang bekerja sama untuk menghasilkan software open-source yang kuat dan fleksibel. PostgreSQL mampu menjalankan berbagai macam aplikasi, dari aplikasi desktop hingga sistem backend yang digunakan oleh perusahaan-perusahaan besar.
-
-PostgreSQL menggunakan arsitektur client-server, di mana server PostgreSQL berjalan sebagai proses yang terpisah dari aplikasi klien. Ketika aplikasi klien membutuhkan akses ke data di dalam basis data, itu mengirim permintaan ke server PostgreSQL. Server PostgreSQL kemudian memproses permintaan tersebut dan mengirimkan hasil kembali ke aplikasi klien.
+React Hook Form bekerja tanpa perlu re-render berlebihan setiap kali ada perubahan input. Ini menjaga performa aplikasi tetap cepat, terutama untuk form yang besar atau kompleks.
+React Hook Form mendukung integrasi validasi yang mudah, baik menggunakan fitur built-in atau melalui library validasi seperti Zod.
+React Hook Form mendukung penggunaan controlled components di form, memberikan fleksibilitas untuk berbagai kebutuhan.
+Dengan React Hook Form, proses pengiriman data (submit) lebih sederhana, karena semuanya dikelola melalui satu fungsi handleSubmit yang menangani validasi dan pengiriman data secara otomatis.
 
 ## Git & Github
 
