@@ -1,6 +1,4 @@
-# Pencerdasan-FE-SCH25
-Trial
-# Pencerdasan-ITDEV-Schematics-2024
+# Pencerdasan-FE-Schematics-2025
 
 ## Daftar Isi
 
