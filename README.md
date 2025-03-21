@@ -91,6 +91,8 @@ Konsistensi Desain: Utility classes memastikan tampilan yang konsisten di seluru
 Customizable: Tailwind bisa dikustomisasi melalui konfigurasi, sehingga sesuai dengan kebutuhan desain spesifik proyek tanpa harus menulis ulang banyak kode.
 Responsive Design: Tailwind menyediakan kelas bawaan untuk desain responsif, sehingga memudahkan penyesuaian tampilan di berbagai ukuran layar.
 
+https://tailwindcss.com/
+
 ### React Query
 Library yang mempermudah pengelolaan data asinkron dalam aplikasi React, terutama saat berurusan dengan API seperti mengatur state, loading, error, dan caching secara manual, React Query menangani semua itu secara otomatis dan menjadi lebih efisien.
 
