@@ -6,7 +6,7 @@
   - [Daftar Isi](#daftar-isi)
   - [Workflow](#workflow)
   - [Tech Stack](#tech-stack)
-    - [Next JS](#next-js)
+    - [Next JS](#next.js-v14)
       - [Data Fetching](#data-fetching)
       - [SSR dan CSR](#ssr-dan-csr)
     - [TypeScript](#typescript)
