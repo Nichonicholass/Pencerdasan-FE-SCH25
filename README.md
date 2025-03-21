@@ -4,9 +4,9 @@
 
 - [Pencerdasan-ITDEV-Schematics-2024](#pencerdasan-itdev-schematics-2024)
   - [Daftar Isi](#daftar-isi)
-  - [Workflow](#workflow)
+  - [Workflow](#workflows)
   - [Tech Stack](#tech-stack)
-    - [Next JS](#next.js-v14)
+    - [Next JS](#next-js)
       - [Data Fetching](#data-fetching)
       - [SSR dan CSR](#ssr-dan-csr)
     - [TypeScript](#typescript)
@@ -70,7 +70,7 @@ Atau bisa juga kunjungi
 https://youtube.com/playlist?list=PLNqp92_EXZBJ4CBroxVBJEpAXoz1g-naZ untuk melihat video tutorial lengkapnya.
 
 
-### Next.js v14
+### Next js
 Next.js adalah kerangka kerja JavaScript sumber terbuka (open source) yang digunakan untuk membuat aplikasi web dengan cepat dan mudah menggunakan React. Next.js dirancang untuk mempercepat proses pengembangan aplikasi web dengan menyediakan fitur-fitur seperti server-side rendering (SSR), pre-rendering, dan optimasi performa.
 
 Next js Documentation : https://nextjs.org/docs
