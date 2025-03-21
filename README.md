@@ -34,9 +34,6 @@
   - [Git Commit dan Push:](#git-commit-dan-push)
   - [Pull Request](#pull-request)
 
-## Workflow
-
-Workflow Schematics 2024 menggunakan sistem agile project management yang terdiri dari sprint dan scrum.
 
 ## Tech Stack
 
@@ -156,6 +153,8 @@ Jika kalian sudah selesai mengerjakan revisi tersebut, ulangi langkah Commit dan
 Dan kalian dapat menuggu kembali apakah revisi kalian di acc.
 
 ## Workflow
+
+Workflow Schematics 2024 menggunakan sistem agile project management yang terdiri dari sprint dan scrum.
 
 1. Cek Backlog and convert to isse
 ![image](https://github.com/user-attachments/assets/366cfe32-4aee-4c03-ad00-272f90109ac1)
