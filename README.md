@@ -75,10 +75,13 @@ Atau bisa juga kunjungi
 https://youtube.com/playlist?list=PLNqp92_EXZBJ4CBroxVBJEpAXoz1g-naZ untuk melihat video tutorial lengkapnya.
 
 
-##Next.js v14
+### Next.js v14
 Next.js adalah kerangka kerja JavaScript sumber terbuka (open source) yang digunakan untuk membuat aplikasi web dengan cepat dan mudah menggunakan React. Next.js dirancang untuk mempercepat proses pengembangan aplikasi web dengan menyediakan fitur-fitur seperti server-side rendering (SSR), pre-rendering, dan optimasi performa.
 
-##TailwindCSS
+Next js Documentation : https://nextjs.org/docs
+
+
+### TailwindCSS
 TailwindCSS adalah framework untuk CSS yang mempermudah dalam melakukan styling CSS dengan lebih cepat dan efisien. Selain itu, TailwindCSS juga bisa membuat custom class untuk setiap component, Tailwind menyediakan kelas utility yang dapat langsung digunakan di HTML. Kelas-kelas ini mencakup margin, padding, ukuran, warna, hingga tata letak responsif, sehingga memudahkan styling tanpa harus membuat stylesheet terpisah.
 
 Kelebihan dari TailwindCSS:
@@ -88,7 +91,7 @@ Konsistensi Desain: Utility classes memastikan tampilan yang konsisten di seluru
 Customizable: Tailwind bisa dikustomisasi melalui konfigurasi, sehingga sesuai dengan kebutuhan desain spesifik proyek tanpa harus menulis ulang banyak kode.
 Responsive Design: Tailwind menyediakan kelas bawaan untuk desain responsif, sehingga memudahkan penyesuaian tampilan di berbagai ukuran layar.
 
-##React Query
+### React Query
 Library yang mempermudah pengelolaan data asinkron dalam aplikasi React, terutama saat berurusan dengan API seperti mengatur state, loading, error, dan caching secara manual, React Query menangani semua itu secara otomatis dan menjadi lebih efisien.
 
 Kelebihan:
@@ -97,7 +100,7 @@ React Query secara otomatis mengurus data fetching, error handling, dan state lo
 React Query bisa otomatis me-refresh data ketika dianggap usang atau ada perubahan, memastikan aplikasi selalu menampilkan data terbaru.
 React Query juga mendukung mutations, yang memudahkan pengiriman data ke server (seperti menambah, mengubah, atau menghapus data). Setelah mutation berhasil, cache otomatis diperbarui, jadi UI selalu sinkron dengan data terbaru.
 
-##React Hook Forms
+### React Hook Forms
 React Hook Form adalah library untuk menangani form dalam aplikasi React. Library ini memanfaatkan fitur React Hooks sehingga memungkinkan pengelolaan form state, validasi, dan pengiriman data dengan lebih efisien. React Hook Form fokus pada kinerja, sehingga cocok digunakan dalam form yang kompleks dan dengan banyak input.
 
 Kelebihan:
