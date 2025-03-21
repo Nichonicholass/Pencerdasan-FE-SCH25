@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/34132402-8b39-4dc7-951d-8f3a9a6e599b)# Pencerdasan-FE-SCH25
+# Pencerdasan-FE-SCH25
 Trial
 # Pencerdasan-ITDEV-Schematics-2024
 
