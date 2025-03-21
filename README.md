@@ -1,4 +1,4 @@
-# Pencerdasan-FE-SCH25
+![image](https://github.com/user-attachments/assets/34132402-8b39-4dc7-951d-8f3a9a6e599b)# Pencerdasan-FE-SCH25
 Trial
 # Pencerdasan-ITDEV-Schematics-2024
 
@@ -165,5 +165,53 @@ Dan kalian dapat menuggu kembali apakah revisi kalian di acc.
 Contoh yang sudah di convert : 
 ![image](https://github.com/user-attachments/assets/96ccf4e3-5b0c-4b6e-9242-f6732a6524e9)
 
-2. 
-3. 
+2. Buka issue dan create branch
+![image](https://github.com/user-attachments/assets/3f17fbe1-2b9a-44c3-a3f6-55ce37731a5c)
+
+biasanya akan dikasih template git fetch dan checkout branch, di copy aja.
+
+3. Fetch dan Pindah Branch
+
+Contoh
+```   
+git fetch origin
+git checkout 23-slicing-diterima-dan-ditolak
+```
+
+4. Slicing dan integrasi
+
+Slicing ->
+Integrasi
+
+5. Buat PR
+kalau kalian sudah selesai
+
+```
+git add .
+git commit -m "Pesan commit Anda di sini"
+git push
+```
+
+contoh commit yang paling sering dipake 
+```
+feat: add slicing dashboard admin
+fix; fix layout login
+```
+
+buka Github
+Create new pull request.
+![image](https://github.com/user-attachments/assets/5d4575d9-bf67-428b-8ed9-5eacf6bbdd7c)
+
+sebelum push
+pastiin branch kalian sudah rebased branch main.
+```
+git pull --rebase origin main
+```
+
+ada banyak cara buat cek apakah branch kalian sudah rebased, salah satunya
+![image](https://github.com/user-attachments/assets/61955f86-497a-4c6c-9065-c4e207ce0323)
+
+lalu, nunggu kalian diriview sama staffli kalian. Kalau ada revisi, boleh langsung di perbaiki.
+
+
+
